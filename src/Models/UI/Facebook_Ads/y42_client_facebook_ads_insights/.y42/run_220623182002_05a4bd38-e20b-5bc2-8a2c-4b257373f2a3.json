@@ -1,6 +1,6 @@
 {
   "request_id": "220623182002_05a4bd38-e20b-5bc2-8a2c-4b257373f2a3",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "2be32237-4d3c-4057-9404-b30d572c8cb0",
     "source_settings": {
@@ -34,5 +34,138 @@
     }
   },
   "created_at": "2022-06-23T18:20:02.084455+00:00",
-  "_signature": "/VLB3ih8cNQy7Sia0OTxGXdCtTinZaYj/LhkMAiWnbT+B6wtQ8o6RP4UWMKoUKKA2xucxpjtAHiYiLlSI2XiAg=="
+  "finished_at": "2022-06-23T18:20:33.885674+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-23T18:20:33.885550+00:00",
+    "row_count": 20,
+    "current_import_row_count": 20,
+    "size_in_bytes": 8704,
+    "external_id": "01a5250c-0101-4b1a-0001-2c9200332eba",
+    "columns": [
+      {
+        "field_name": "cost_per_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "platform_position",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cost_per_unique_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_unique_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "unique_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "impression_device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cost_per_inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "inline_link_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "publisher_platform",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "unique_inline_link_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220623182002_05a4bd38-e20b-5bc2-8a2c-4b257373f2a3",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220623182002_05a4bd38-e20b-5bc2-8a2c-4b257373f2a3"
+  },
+  "_signature": "h3YmEZRFPfXwsO2OZD1RjACQlRxCYZ6UwhVy93eEaY2Fdjr9fPSYWEla0zc1OCDk4o9IGBnx97mpHnwPRjY5Aw=="
 }
